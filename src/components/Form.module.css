@@ -1,11 +1,13 @@
 .form_container {
   display: flex;
   height: 26px;
-  margin: 10px 0 0 435px;
+  /*width: 60px;*/
+  /*margin: 10px 0 0 435px;*/
 }
 
 .form_input {
   margin-right: 10px;
+  width: 100px;
   border: 1px solid #e0e0e0;
   border-radius: 3px;
 }

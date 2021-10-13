@@ -63,3 +63,12 @@
   color: red;
 }
 
+.link {
+  color: #8c7f07;
+  margin: 0 0 10px 400px;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #049109;
+}

@@ -13,7 +13,7 @@ export const weatherRender = (data, styles) => {
 
   return <div className={container}>
       <div>
-        <span>{`Weather in ${data.location.name}`}</span><span>{getWeatherTime(data.location.localtime)}</span>
+        <span>{`Weather in ${data.location.name} on `}</span><span>{getWeatherTime(data.location.localtime)}</span>
         <div className={`${flex} ${bord} ${wd_100}`}>
           <img src={generateUrlIcons(data.current.condition.icon)} alt={"condition"}/>
           <p>{currTemp}</p>

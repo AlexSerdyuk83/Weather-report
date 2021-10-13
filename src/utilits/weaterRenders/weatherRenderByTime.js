@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import {generateUrlIcons, getWeatherDate, getWeatherTime} from "./weatherRender";
 
-const hoursWeatherRender = (data, styles) => {
+const weatherRenderByTime = (data, styles) => {
   const {
     container,
     bord,
@@ -32,4 +32,4 @@ const hoursWeatherRender = (data, styles) => {
   </div>
 };
 
-export default hoursWeatherRender;
+export default weatherRenderByTime;
